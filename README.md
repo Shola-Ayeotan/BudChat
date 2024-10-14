@@ -1,10 +1,18 @@
 # 💬 BuddyChat
 
-A simple Streamlit app demonstrating how to build a chatbot using OpenAI's GPT-3.5.
+Welcome to **BuddyChat**, a simple and interactive chatbot built using Streamlit and OpenAI's GPT-3.5. 
+
+
+## Features
+
+- **Interactive Chat Interface**: Users can engage in real-time conversations with the chatbot.
+- **User-Friendly Design**: Built with Streamlit for excellent user experience.
+
+## How to Run the App
 
 [![Open BudChat App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://budchat.streamlit.app/)
 
-### How to run it
+### Installation
 
 1. Install the requirements
 
