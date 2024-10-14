@@ -1,6 +1,6 @@
 # 💬 BuddyChat
 
-Welcome to **BuddyChat**, a simple and interactive chatbot built using Streamlit and OpenAI's GPT-3.5. 
+Welcome to **BuddyChat**, a simple and interactive chatbot I built using Streamlit and OpenAI's GPT-3.5. 
 
 
 ## Features
