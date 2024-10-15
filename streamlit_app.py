@@ -2,13 +2,12 @@ import streamlit as st
 from openai import OpenAI
 
 # Show title and description.
-st.title("💬 Welcome to BudChat!")
+st.title("🙏 Welcome to FaithBot!")
 st.write(
-    " I am a friendly chatbot created using OpenAI's GPT-3.5 LLM. \n\n"
-
-    "Think of me as your go-to gist partner. \n"
-    "Whether you're looking for advice, need help with simple tasks, \n"
-    "or just want to chat about your day, BudChat is here to listen and support you. \n"
+    "I am FaithBot, your friendly AI assistant created to help you grow in your relationship with God. \n\n"
+    
+    "Whether you're seeking guidance, have questions about the Scriptures, \n"
+    "or simply want to discuss your faith journey, I'm here to listen and support you. \n"
 )
 
 # Retrieve the OpenAI API key from secrets.
@@ -27,7 +26,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Create a chat input field to allow the user to enter a message.
-if prompt := st.chat_input("Hey bud, how can I help?"):
+if prompt := st.chat_input("How can I help you grow in faith today?"):
 
     # Store and display the current prompt.
     st.session_state.messages.append({"role": "user", "content": prompt})
@@ -35,19 +34,23 @@ if prompt := st.chat_input("Hey bud, how can I help?"):
         st.markdown(prompt)
 
     # Generate a response using the OpenAI API.
-    stream = client.chat.completions.create(
+    response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
             {"role": m["role"], "content": m["content"]}
             for m in st.session_state.messages
         ],
-        stream=True,
+        max_tokens=200,  # Adjust this based on desired response length
+        temperature=0.7,  # Adjust for more creative responses
     )
+
+    # Extract the assistant's response correctly.
+    assistant_response = response.choices[0].message['content']
 
     # Stream the response to the chat.
     with st.chat_message("assistant"):
-        response = st.write_stream(stream)
-    st.session_state.messages.append({"role": "assistant", "content": response})
+        st.markdown(assistant_response)
+    st.session_state.messages.append({"role": "assistant", "content": assistant_response})
 
 # Add a footer credit immediately after the chat input area.
 st.markdown("---")  # Horizontal line for separation
