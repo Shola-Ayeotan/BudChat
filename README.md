@@ -11,9 +11,9 @@ It was built using OpenAI's GPT-3.5 and Streamlit.
 
 ## Live Demo
 
-You can try out the live demo of FaithBud here: [Open FaithBud App](https://budchat.streamlit.app/)
+You can try out the live demo of FaithBud here: [Open FaithBud](https://faithbud.streamlit.app/)
 
-[![Open FaithBud](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://budchat.streamlit.app/)
+[![Open FaithBud](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://faithbud.streamlit.app/)
 
 
 ### Installation
