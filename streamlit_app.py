@@ -4,6 +4,8 @@ from openai import OpenAI
 # Show title and description.
 st.title("💬 Welcome to BudChat!")
 st.write(
+    " I am a friendly chatbot created using OpenAI's GPT-3.5 LLM. \n\n"
+
     "Think of me as your go-to gist partner. \n"
     "Whether you're looking for advice, need help with simple tasks, \n"
     "or just want to chat about your day, BudChat is here to listen and support you. \n"
