@@ -2,9 +2,9 @@ import streamlit as st
 from openai import OpenAI
 
 # Show title and description.
-st.title("🙏 Welcome to FaithBot!")
+st.title("✝️ Welcome to FaithBud!")
 st.write(
-    "I am FaithBot, your friendly AI assistant created to help you grow in your relationship with God. \n\n"
+    "I am FaithBud, your personal AI assistant created to help you grow in your relationship with God. \n\n"
     
     "Whether you're seeking guidance, have questions about the Scriptures, \n"
     "or simply want to discuss your faith journey, I'm here to listen and support you. \n"
