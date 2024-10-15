@@ -25,3 +25,7 @@ Welcome to **BudChat**, a simple and interactive chatbot I built using Streamlit
    ```
    $ streamlit run streamlit_app.py
    ```
+
+Here’s a glimpse of the bot interface:
+
+![Screenshot of BuddyChat](Screenshot 2024-10-15.png) 
