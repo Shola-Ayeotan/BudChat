@@ -45,13 +45,13 @@ if prompt := st.chat_input("How can I help you grow in faith today?"):
     )
 
     # Extract the assistant's response correctly.
-    assistant_response = response.choices[0].message['content']
-
+    assistant_response = response.choices[0].message.content  # Use dot notation instead of subscripting
 
     # Stream the response to the chat.
     with st.chat_message("assistant"):
         st.markdown(assistant_response)
     st.session_state.messages.append({"role": "assistant", "content": assistant_response})
+
 
 # Add a footer credit immediately after the chat input area.
 st.markdown("---")  # Horizontal line for separation
