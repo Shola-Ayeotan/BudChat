@@ -1,4 +1,4 @@
-# 💬 FaithBud
+# ✝️ FaithBud
 
 Welcome to **FaithBot**, an interactive AI assistant designed to help people grow in their relationship with God. 
 
