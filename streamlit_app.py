@@ -46,6 +46,7 @@ if prompt := st.chat_input("How can I help you grow in faith today?"):
 
     # Extract the assistant's response correctly.
     assistant_response = response.choices[0].message['content']
+    
 
     # Stream the response to the chat.
     with st.chat_message("assistant"):
