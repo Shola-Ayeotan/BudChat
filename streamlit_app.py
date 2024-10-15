@@ -6,7 +6,7 @@ st.title("✝️ Welcome to FaithBud!")
 st.write(
     "I am FaithBud, your personal AI assistant created to help you grow in your relationship with God. \n\n"
     
-    "Whether you're seeking guidance, have questions about the Scriptures, \n"
+    "Whether you're seeking guidance, have questions about certain Scriptures, \n"
     "need help with prayer, or simply want to discuss your faith journey, I'm here to listen and support you. \n"
 )
 

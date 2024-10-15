@@ -2,7 +2,7 @@
 
 Welcome to **FaithBot**, an interactive AI assistant designed to help people grow in their relationship with God. 
 
-THis was built using OpenAI's GPT-3.5 and Streamlit. 
+It was built using OpenAI's GPT-3.5 and Streamlit. 
 
 ## Features
 
