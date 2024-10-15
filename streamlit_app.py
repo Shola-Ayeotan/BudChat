@@ -2,10 +2,9 @@ import streamlit as st
 from openai import OpenAI
 
 # Show title and description.
-st.title("💬 BudChat")
+st.title("💬 Welcome to BudChat!")
 st.write(
-    "Welcome to BudChat! 🌟\n\n"
-    "Think of me as your go-to companion for all things conversation. \n"
+    "Think of me as your go-to gist partner. \n"
     "Whether you're looking for advice, need help with simple tasks, \n"
     "or just want to chat about your day, BudChat is here to listen and support you. \n"
 )
