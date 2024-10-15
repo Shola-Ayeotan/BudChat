@@ -1,16 +1,20 @@
-# 💬 BudChat
+# 💬 FaithBud
 
-Welcome to **BudChat**, a simple and interactive chatbot I built using Streamlit and OpenAI's GPT-3.5. 
+Welcome to **FaithBot**, an interactive AI assistant designed to help people grow in their relationship with God. 
 
+THis was built using OpenAI's GPT-3.5 and Streamlit. 
 
 ## Features
 
 - **Interactive Chat Interface**: Users can engage in real-time conversations with the chatbot.
 - **User-Friendly Design**: Built with Streamlit for excellent user experience.
 
-## How to run it
+## Live Demo
 
-[![Open BudChat App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://budchat.streamlit.app/)
+You can try out the live demo of FaithBud here: [Open FaithBud App](https://budchat.streamlit.app/)
+
+[![Open FaithBud](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://budchat.streamlit.app/)
+
 
 ### Installation
 
