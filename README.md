@@ -8,7 +8,7 @@ Welcome to **BudChat**, a simple and interactive chatbot I built using Streamlit
 - **Interactive Chat Interface**: Users can engage in real-time conversations with the chatbot.
 - **User-Friendly Design**: Built with Streamlit for excellent user experience.
 
-## How to Run the App
+## How to run it
 
 [![Open BudChat App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://budchat.streamlit.app/)
 
