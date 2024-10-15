@@ -28,4 +28,4 @@ Welcome to **BudChat**, a simple and interactive chatbot I built using Streamlit
 
 Here’s a glimpse of the bot interface:
 
-![Screenshot of BuddyChat](Screenshot 2024-10-15.png) 
+![Screenshot of BuddyChat](Screenshot.png) 
