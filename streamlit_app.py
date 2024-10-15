@@ -7,7 +7,7 @@ st.write(
     "I am FaithBud, your personal AI assistant created to help you grow in your relationship with God. \n\n"
     
     "Whether you're seeking guidance, have questions about certain Scriptures, \n"
-    "or simply want to discuss your faith journey, I'm here to listen and support you. \n"
+    "need help with prayer, or simply want to discuss your faith journey, I'm here to listen and support you. \n"
 )
 
 # Retrieve the OpenAI API key from secrets.
