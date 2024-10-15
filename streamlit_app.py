@@ -6,8 +6,8 @@ st.title("✝️ Welcome to FaithBud!")
 st.write(
     "I am FaithBud, your personal AI assistant created to help you grow in your relationship with God. \n\n"
     
-    "Whether you're seeking guidance, have questions about certain Scriptures, \n"
-    "or simply want to discuss your faith journey, I'm here to listen and support you. \n"
+    "Whether you're seeking guidance, have questions about the Scriptures, \n"
+    "need help with prayer, or simply want to discuss your faith journey, I'm here to listen and support you. \n"
 )
 
 # Retrieve the OpenAI API key from secrets.
@@ -54,4 +54,4 @@ if prompt := st.chat_input("How can I help you grow in faith today?"):
 
 # Add a footer credit immediately after the chat input area.
 st.markdown("---")  # Horizontal line for separation
-st.write("Created by Shola Ayeotan © 2024")
+st.write("Oluwanishola Ayeotan © 2024")
